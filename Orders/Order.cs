@@ -14,6 +14,7 @@ namespace Bangazon.Orders
     }
 
     private Guid _orderNumber = System.Guid.NewGuid();
+    //we can remove the system. here but I left it just to show that it worked. you would HAVE to put it here if you did not have using system on the top
     
     public Guid orderNumber {
       get {
