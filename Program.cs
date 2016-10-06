@@ -36,6 +36,8 @@ namespace Bangazon
                     payment = new CreditCard(firstOrder)
                     {
                         bankName = "Amex",
+                        //you could do long hand here:
+                        // payment.bankName = "Amex",
                         accountNumber = "948587245092"
                     };
                     break;
